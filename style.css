@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  a, a:link, a:visited{
+    color:inherit;
+    text-decoration:none;
+  }
+  
+  /* main */
+
+  main{
+    width:100%;
+    height:50vh;
+    color:black;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 8, 8, 0.8));
+    /* background-image: url('image1.jpg');
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+
+  main button.tv{
+    background-color:transparent;
+    border:none;
+    color:black;
+    font-size:1.5rem;
+    /* position:absolute;
+    left:50%; 
+    transform:translateX(-50%); */
+    animation:upDown 1s ease-in-out infinite;
+    cursor:pointer;
+  }
+
+  main h4{
+    font-size:2rem;
+  }
+
+  main h2{
+    font-size:1.5rem;
+    margin:2rem 0;
+    letter-spacing:3px;
+  }
+  
+
+
+  .container h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .container h3 button {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .container h3 button i {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .container h2.active span {
+    font-weight: bold;
+    color: #f9ffa8;
+  }
+  
+  #searchform {
+    margin-top: 20px;
+  }
+  
+  #searchform input[type="text"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchform button[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* main-end */
+
+
+
+  #search {
+    background-color: gray;
+    box-sizing: border-box;
+  }
+
+
+
+  .image-container {
+    display: flex;
+  }
+  
+  .item-container {
+    margin-right: 10px; 
+
+  .line-break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+
+
+
+
+
+  .about-self {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-self img {
+    margin-right: 10px;
+    max-width: 200px;
+    max-height: 300px;
+    margin-top: 30px;
+  }
+  
+  .movie-info {
+    flex: 0 0 200px;
+    margin-top: 7rem;
+    margin-left: 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie-info p {
+    margin: 10px 0;
+  }
+  
+  .movie-info p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .movie-info p:last-child {
+    font-style: italic;
+    color: #888;
+  }
+  
+  }
