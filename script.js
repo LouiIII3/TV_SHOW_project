@@ -14,6 +14,7 @@
         setTimeout(deleteTxt, 3000);
       }
     }
+    
     function deleteTxt(){
       currentTxt.pop();
       spanEl.textContent = currentTxt.join("");
@@ -28,9 +29,10 @@
     writeTxt();
   })();
   /* end text_iife.js */
-  
+
+
   /* scroll_request.js */
-  /* 수직 스크롤이 발생하면 header 태그에 active 클래스 추가 및 삭제 */
+
   const headerEl = document.querySelector("header");
   window.addEventListener('scroll', function(){
     requestAnimationFrame(scrollCheck);
