@@ -15,7 +15,6 @@
       }
     }
 
-    
     function deleteTxt(){
       currentTxt.pop();
       spanEl.textContent = currentTxt.join("");
